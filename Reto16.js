@@ -11,7 +11,3 @@ function removeSnow(s) {
 
     return finalStr.join('')
 }
-
-console.log(removeSnow('zxxzoz')) // -> "oz"
-// 1. Eliminamos "xx", quedando "zzoz"
-// 2. Eliminamos "zz", quedando "oz"
